@@ -7,7 +7,8 @@ This code works on the DZ60 keyboard from kbdfans. You can get it from the link 
 (https://www.aliexpress.com/item/DZ60-Custom-mechanical-keyboard-PCB-60-keyboard-support-arrow-key/32824638057.html)
 
 This layout also contains 2 extra layers. I only use the last layer for the reset and change of lighting.
- #include "dz60.h"
+
+#include "dz60.h"
 
 #define MODS_CTRL_MASK  (MOD_BIT(KC_LSHIFT)|MOD_BIT(KC_RSHIFT))
 
